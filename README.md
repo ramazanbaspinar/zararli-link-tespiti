@@ -40,11 +40,11 @@ cd zararli-link-tespiti
 pip install pandas scikit-learn streamlit joblib
 ```
 
-**3. Modeli eğitin:**
+**3. Modeli eğitin (Opsiyonel):**
 ```bash
 python model.py
 ```
-Bu adım phishing_model_nlp.pkl ve tfidf_vectorizer.pkl dosyalarını oluşturacaktır.
+> **Not:** Eğitilmiş model dosyaları (`.pkl`) repoda hazır bulunduğu için bu adımı atlayıp doğrudan uygulamayı başlatabilirsiniz. Eğer modeli sıfırdan eğitmek isterseniz, veri setini [buradan](https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls) indirip ana dizine koymalısınız. Bu adım `phishing_model_nlp.pkl` ve `tfidf_vectorizer.pkl` dosyalarını oluşturacaktır.
 
 **4. Arayüzü başlatın:**
 ```bash
