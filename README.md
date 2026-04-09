@@ -18,7 +18,7 @@ Proje mimarisinde, URL metinlerini sayısallaştırmak için TF-IDF vektörizasy
 
 ## Model Performansı
 
-Model, Kaggle üzerinden alınan 100.000'den fazla URL barındıran veri seti üzerinde eğitilmiş ve test edilmiştir.
+Model, Kaggle üzerinden alınan 549.346 URL barındıran veri seti üzerinde eğitilmiş ve test edilmiştir.
 
 | Metrik    | Değer   |
 |-----------|---------|
@@ -98,4 +98,4 @@ zararli-link-tespiti/
 
 ## Veri Seti
 
-Modelin eğitiminde Kaggle üzerinde paylaşılan [Phishing Site URLs Dataset](https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls) kullanıldı. Veri seti 100.000'den fazla URL içermekte olup, etiketler `good` (güvenli) ve `bad` (zararlı) olarak sınıflandırılmıştır.
+Modelin eğitiminde Kaggle üzerinde paylaşılan [Phishing Site URLs Dataset](https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls) kullanılmıştır. Veri seti 549.346 adet URL içermekte olup, etiketler `good` (güvenli) ve `bad` (zararlı) olarak sınıflandırılmıştır.
