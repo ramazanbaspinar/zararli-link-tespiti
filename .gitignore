@@ -1,0 +1,11 @@
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+
+# Sanal ortam dosyaları
+.venv/
+venv/
+env/
+
+# Büyük veri setleri (GitHub'a yüklenmemesi için)
+*.csv
